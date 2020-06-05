@@ -1,5 +1,5 @@
 {
-  "name": "vue-test-utils-dsarmiento",
+  "name": "vue-test-utils-champi",
   "private": false,
   "scripts": {
     "bootstrap": "lerna bootstrap",
