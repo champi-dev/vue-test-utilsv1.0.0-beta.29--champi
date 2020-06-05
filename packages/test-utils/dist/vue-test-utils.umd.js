@@ -4939,7 +4939,11 @@ function errorHandler (
       ? errorOrString
       : new Error(errorOrString);
 
-  vm._error = error;
+      try {
+        vm._error = error;
+      } catch (e) {
+        return e
+      }
 
   throw error
 }

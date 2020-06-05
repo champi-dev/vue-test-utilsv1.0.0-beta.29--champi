@@ -3149,7 +3149,11 @@ function errorHandler(errorOrString, vm) {
   var error =
     typeof errorOrString === 'object' ? errorOrString : new Error(errorOrString);
 
-  vm._error = error;
+  try {
+    vm._error = error;
+  } catch (e) {
+    return e
+  }
   throw error
 }
 
