@@ -1,5 +1,5 @@
 {
-  "name": "@vue/test-utils",
+  "name": "vue-test-utils-champi",
   "version": "1.0.0-beta.29",
   "description": "Utilities for testing Vue components.",
   "main": "dist/vue-test-utils.js",
@@ -14,15 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vue-test-utils.git",
+    "url": "git+https://github.com/champi-dev/vue-test-utilsv1.0.0-beta.29--champi",
     "directory": "packages/test-utils"
   },
-  "author": "vuejs",
+  "author": "danielsarcor",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vuejs/vue-test-utils/issues"
-  },
-  "homepage": "https://github.com/vuejs/vue-test-utils#readme",
+  "homepage": "https://github.com/champi-dev/vue-test-utilsv1.0.0-beta.29--champi",
   "devDependencies": {
     "chalk": "^2.1.0",
     "conventional-changelog": "^1.1.3",
